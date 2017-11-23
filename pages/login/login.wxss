@@ -1,0 +1,97 @@
+
+.logincontainer{
+/* background-image: url(/images/5.jpg);
+background-size: 100% 100%; */
+height: 99.7vh;
+colro:#fff
+}
+.back{
+  width:100%;
+  height: 100%;
+}
+.curtain{
+height:51vh;
+width:80%;
+background-color:black;
+opacity:0.8;
+padding:36% 10%;
+position: absolute;
+top:0px;
+}
+
+item{
+  width: 80%;
+}
+.logincontainer{
+  font-family: sans-serif;
+
+  font-size:0.8em;
+  color:#B9B9B9;
+}
+image{
+  width:100%;
+  height:30vh;
+
+}
+input{
+  border-bottom: 1px solid #B9B9B9;
+  margin-bottom: 2vh;
+}
+.login-item button{
+    font-size:1em;
+    color: #fff;
+    font-weight: 400;
+
+}
+.login-btn{
+  width:80%;
+  margin:0 auto;
+  background-color: #139DD6;
+ height:5.5vh;
+}
+.tip{
+ margin-top:11vh;
+text-align:center;
+color:#fff;
+font-size:0.8em;
+
+margin-bottom:4vh;
+
+ 
+}
+.wx-inco{
+  width: 54vw;
+  margin: 0 auto;
+ 
+}
+.wx-inco-circle{
+  width:12vw;
+  height: 12vw;
+  border-radius: 6vw;
+  overflow: hidden;
+  margin-left: 5%;
+  float: left;
+}
+.wx-inco-circle:nth-child(0){
+  margin-left: 20%
+}
+.wx-inco-circle image{
+  width:12vw;
+  height: 12vw;
+   background-size:100% 100%;   /* //contain */
+    /* background-image: url(/images/wx-inco.jpg); */
+    overflow: hidden;
+
+}
+.footer{
+  margin-top:20vh;
+clear:left;
+font-size:0.8em;
+margin-left:18%;
+
+}
+
+
+.route,.choose{
+  color:#139DD6
+}

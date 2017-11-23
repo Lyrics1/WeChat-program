@@ -1,0 +1,49 @@
+<view class="logincontainer">
+  <image src="/img/back.jpg" class='back'></image>
+    <view class="curtain">
+
+    <view class="item">
+        <view class="login-item">
+             <view class="login-item-info" auto-focus="true">用户名</view>
+              <view><input bindinput="usernameInput" /></view>
+        </view>
+    </view>
+        <view class="login-item">
+             <view class="login-item-info">密码</view>
+             <view class="login-pwd">
+                   <input style="flex-group-1"  password="true" bindinput="passworldInput"/>
+             </view>
+        </view>
+
+
+        <view class="login-item bottom" >
+            <button  class="login-btn" bindtap="loginBtnClick" >{{Button}}</button>
+        
+        </view>
+
+        <view class="tip">
+            <navigator url="login" bindtap='signClick' > 
+                  没有账户？<label class='choose'>{{button}}</label>
+            </navigator>     
+        </view>
+
+        <view class="wx-inco">
+            <view class="wx-inco-circle">
+                 <image src="/img/wx-inco.jpg"></image>
+            </view>
+             <view class="wx-inco-circle">
+                 <image src="/img/wx-inco.jpg"></image>
+            </view>
+             <view class="wx-inco-circle">
+                 <image src="/img/wx-inco.jpg"></image>
+            </view>
+              
+        </view>
+
+         <view class="footer">
+         <label>登录即代表阅读并同意<label class="route">服务条款</label></label> 
+        </view>
+
+      </view>
+     
+</view>
